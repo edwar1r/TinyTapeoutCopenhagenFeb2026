@@ -1,7 +1,7 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     458966455203142657      # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "DDS-PhaseAccumulator 4FullAdderStages &LUT"      # Project title
+  title:        "DDS PhaseAccumulator 4FullAdderStages &LUT"      # Project title
   author:       "Robert Edwards"      # Your name
   discord:      "RobEdwards72"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Partial Sinusoidal waveform generator"      # One line description of what your project does
