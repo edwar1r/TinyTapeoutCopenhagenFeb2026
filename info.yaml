@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     456571724919352321      # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "Tiny Tapeout Copenhagen 2026 1st Project"      # Project title
+  wokwi_id:     458966455203142657      # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "RobEdwards-DDS-PhaseAccumulator -4FullAdderStages-FINAL_TintTapeout-IHP26a"      # Project title
   author:       "Robert Edwards"      # Your name
   discord:      "RobEdwards72"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "To be specified"      # One line description of what your project does
+  description:  "Partial Sinusoidal waveform generator"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     1       # Clock frequency in Hz (or 0 if not applicable) - 1Hz allows changes to be observed but can be clocked higher
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -16,20 +16,20 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "ACC1"
+  ui[1]: "ACC2"
+  ui[2]: "ACC3"
+  ui[3]: "ACC4"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "DA1"
+  uo[1]: "DA2"
+  uo[2]: "DA3"
+  uo[3]: "DA4"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
